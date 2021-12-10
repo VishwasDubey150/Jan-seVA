@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "476789021523",
+    "project_id": "jan-seva-64fe2",
+    "storage_bucket": "jan-seva-64fe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476789021523:android:33f8c4b453354bfe7a5fa6",
+        "android_client_info": {
+          "package_name": "com.example.janseva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476789021523-3evtlsja94uf53ml52ps23d36ak1jhs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnzMLUuauBuGwE2o2LsKWJeM3J39pZOq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476789021523-3evtlsja94uf53ml52ps23d36ak1jhs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

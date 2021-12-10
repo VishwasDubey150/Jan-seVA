@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.janseva">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JanSeVa">
+        <activity
+            android:name=".feedback"
+            android:exported="true"
+            android:parentActivityName=".all"
+            android:label="Feedback"/>
+        <activity
+            android:name=".others"
+            android:exported="true"
+            android:parentActivityName=".all"/>
+        <activity
+            android:name=".electricity"
+            android:exported="true"
+            android:parentActivityName=".all"/>
+        <activity
+            android:name=".sewage"
+            android:exported="true"
+            android:parentActivityName=".all"/>
+        <activity
+            android:name=".road"
+            android:exported="true"
+            android:parentActivityName=".all"/>
+        <activity
+            android:name=".news"
+            android:exported="true"
+            android:parentActivityName=".all"/>
+        <activity
+            android:name=".all"
+            android:exported="true"
+            android:parentActivityName=".Mainscreen"/>
+        <activity
+            android:name=".Mainscreen"
+            android:exported="true"
+            android:label="Jan seVa" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:label="Login" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Jan seva">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

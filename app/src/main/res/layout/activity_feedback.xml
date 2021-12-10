@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDBD1"
+    tools:context=".electricity">
+
+    <Button
+        android:id="@+id/sbmitFeed"
+        android:layout_width="159dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="88dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:backgroundTint="#119402"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/feedbacket"
+        android:layout_width="371dp"
+        android:layout_height="399dp"
+        android:background="@drawable/bg_et"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter feedback"
+        android:inputType="textMultiLine"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
